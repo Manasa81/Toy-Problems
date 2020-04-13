@@ -1,4 +1,4 @@
-class LRUcache:
+class LRU:
     websiteName = ''
     url = ''
     date=''
@@ -6,11 +6,9 @@ class LRUcache:
         self.websiteName = w 
         self.url=u
         self.date=d
-    def put(self,w,u,d):
-        pass
-    def get(self,w):
+    def put(self,a):
+        return 'done'
+    def get(self):
         pass
     def get_cache(self):
         pass
-
-      
